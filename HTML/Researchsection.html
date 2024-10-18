@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Webpage references">
+    <meta name="keyword" content="Bonsai,Technology,Refeences">
+    <meta name="author" content="Aman Babu Shrestha, Rishan Chhunju, Ashish Pradhan, Sristi Shrestha, Ayusha Pradhan" ">
+    <link rel="icon " type="image/x-icon " href="../Images/circlelogo.png ">
+    <link rel="stylesheet " href="../CSS/nav-footer.css ">
+    
+    <title>Research</title>
+    <style>
+
+        /* navgation link color  */
+        .current{
+            color: rgb(6, 76, 6);;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: rgb(2, 83, 2);
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+        
+        /* styling hr tag */
+        .half {
+            width: 10%;
+            border: 2px solid rgb(2, 83, 2);
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+        
+        .research-section img {
+            width: 40%;
+            height: 330px;
+            margin-right: 20px;
+            box-shadow: 0 0 6px rgb(167, 166, 166);
+        }
+        
+        .research-section {
+            margin: 40px auto 80px auto;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 20px;
+            text-align: left;
+        }
+        
+        /* styling video tag */
+        video {
+            width: 40%;
+            height: 350px;
+            box-shadow: 0 0 6px rgb(167, 166, 166);
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar and logo -->
+    <header>
+        <figure>
+            <img src=" ../Images/bonsai logo.png " alt=" " style="width: 150px; ">
+        </figure>
+
+        <!-- navigation section -->
+        <ul>
+            <li><a target="_blank " href="../home.html">HOME</a></li>
+            <li><a target="_blank " href="Allproducts.html " class="product">PRODUCT</a></li>
+            <li><a target="_blank " href="AllBlog.html ">BLOG</a></li>
+            <li><a target="_blank " href="teamoverview.html ">ABOUT US</a></li>
+            <li><a target="_blank " href="Researchsection.html " class="current">RESEARCH</a></li>
+            <li><a target="_blank " href="contact.html ">CONTACT US</a></li>
+        </ul>
+    </header>
+    <hr>
+    <div class="research-section ">
+        <h1>landing Page</h1>
+        <hr class="half ">
+        <video autoplay loop>
+            <source src="../Images/ourhome.mp4 ">
+        </video>
+        <video autoplay loop>
+            <source src="../Images/home.mp4 ">
+        </video>
+        <p>We took the reference for our landing page from an organic food company, <a href="https://www.tessemaes.com/ "><b>tessemaes.com </b></a> The overall design looked simple,but informative. The page consists of our shop's logo and navigation bar aligned
+            centrally. The image slider, created using JS,displays ongoing discount and other offers of our shop. Other links(such as search, cart etc)were not added in our page as it doesnt perform any function.
+        </p>
+    </div>
+
+    <div class="research-section ">
+        <h1>Why Us</h1>
+        <hr class="half " style="width: 5%; ">
+        <img src="../Images/whyUS (2).png " alt=" ">
+        <img src="../Images/ourwhyus-LAPTOP-B9V0P6G4.png " alt=" ">
+        <p>During our research process, we found that lots of e-commerce website adds this section to highlight the benefits of purchasing items from thier company and build trust with the potentail customer. So, we refered the design from an indoor plant
+            selling website <a href="https://www.thesill.com/ "><b>thesill.com </b></a>. Few changes were made from the original design such as alignment of items and an additoinal benefit. The spaces between the logo and text were also slightly adjusted.
+
+        </p>
+    </div>
+
+    <div class="research-section ">
+        <h1>Hover Effect</h1>
+        <hr class="half ">
+        <img src="../Images/hovereffect.png " alt=" " ;>
+        <img src="../Images/ourhover.png " alt=" " ;>
+        <p>The hover and box shadow effect for our cards was inspired from a rental website: <a href="https://www.zillow.com/ ">zillow.com </a> and other e-commerce website such as : <a href="https://www.flipkart.com/
+        "><b>flipkart.com</b></a>, <a href="floweraura.com "><b>floweraurara.com</b></a>            The effect looked very minimal yet elegant and subtle, which was just needed for our website. With just a simple CSS property( box-shadow, transform and transition), the effect was achieved. The border-radius, box-shadow and padding were adjusted
+            slightly in our website.
+        </p>
+    </div>
+    <div class="research-section ">
+        <h1>Modal Popup</h1>
+        <hr class="half ">
+        <img src="../Images/popup.png " alt=" " ;>
+        <img src="../Images/ourpopup.png " alt=" " ;>
+        <p>We found that popup modals are often used by many websites to encourage new users to subscribe thier newsletter, display ongoing discount and other information. So, by refering from <a href="https://www.thesill.com/ "><b>thesill.com</b> </a> and
+            other e-commerce website such as : <a href="https://www.lovehair.com/ "><b>lovehair.com</b></a>,<a href="https://www.johnnycupcakes.com/ "><b>johnnycupcakes.com</b></a>, we created a similar sign-up modal that popups after certain interval of
+            time in the middle of the screen. Using JS, we also wanted to create a function by targetting the window object, so, a popup modal was created.
+        </p>
+    </div>
+
+    <div class="research-section ">
+        <h1>Article Overview</h1>
+        <hr class="half ">
+        <img src="../Images/articleoverview.png " alt=" ">
+        <img src="../Images/ouraticleoverview.png " alt=" ">
+        <p>
+            The design to display a brief overview of our article was inspired from an ecommerce plant shop,<a target="_blank " href="https://bloomscape.com/ "><b>Bloomscape.com</b></a> This section is created with flexbox and shows a brief introduction
+            about the content of our main article and its title. The button is a link and navigates us to our main article page. The font-family and border-radius of button were changed to in our section to match with the main webpage.
+        </p>
+    </div>
+    <div class="research-section ">
+        <h1>Cutomer Review</h1>
+        <hr class="half ">
+        <img src="../Images/reviews.png " alt=" " style="height: 400px; ">
+        <img src="../Images/ourreview.png " alt=" " style="height: 400px; ">
+        <p>The design from another indoor plant selling website,
+            <a target="_blank " href="https://houseplantshop/ "><b>houseplantshop.com</b></a> We believe this is an important section for any e-commerce website as it helps to build credibility and trust with the customers. Furthermore, we took this design
+            as a challenge and as an opportunity to test our understanding of flexbox and box modal property of CSS.
+        </p>
+    </div>
+    <div class="research-section ">
+        <h1>Footer</h1>
+        <hr class="half " style="width: 5%; ">
+        <img src="../Images/footer.png " alt=" ">
+        <img src="../Images/ourfooter.png " alt=" ">
+        <p>
+            Like in every other websites, our footer section is situated at the bottom of every webpage. We refered the design for our footer section from a solid perfume copmany,<a target="_blank " href="https://vivistix.com/ "><b>vivistix.com</b></a>.
+            Compared to other footer of websites that we researched, this looked much clean ,simple and organized. The section provides additonal links and information about shop and a functional sign up form. The layout was created simply with flexbox.
+            Our section has a different background color compared to orignal design.
+        </p>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-container ">
+            <div class="footer-links ">
+                <h2>QUCK LINKS</h2>
+                <p>
+                    <li>Privacy Policy</li>
+                    <li>FAQ & Return Policy</li>
+                    <li>Terms Of Service</li>
+                    <li>Refund Policy</li>
+                </p>
+            </div>
+            <div class="footer-links ">
+                <h2 text-align: left;> OUR SOCIAL MEDIA</h2>
+                <!-- social media icons -->
+                <th><img src="../Images/logos/instagram.png " alt=" " style="width: 40px; "></th>
+                <th><img src="../Images/logos/facebook.png " alt=" " style="width: 40px; "></th>
+                <th><img src="../Images/logos/icons8-tiktok-100.png " alt=" " style="width: 40px; "></th>
+            </div>
+
+            <div class="footer-links ">
+                <h2> CONTACT US</h2>
+                <p style="font-size: 18px; ">Please reach out to our team at <b>bonsai@gmail.com</b> if you have any questions.
+                </p>
+            </div>
+
+            <div class="footer-links ">
+                <h2>GET DAILY UPDATES</h2>
+                <p style="font-size: 18px; ">Join us to receive gardening tips, offer, news and more</p>
+                <div class="email-input ">
+                    <form name="FeedbackForm " style="width: 100%; ">
+                        <input style="margin-bottom: 10px; " type="text " name="EmailAddress " value="Your Email Address " id="clearText ">
+                        </input>
+                        <button class="sub-btn ">Subscribe </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

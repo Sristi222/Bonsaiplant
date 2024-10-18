@@ -1,0 +1,249 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="contact, bonasai home, subscribe">
+    <meta name="keyword" content="contact, bonsai home">
+    <meta name="author" content="Aman Babu Shrestha, Ashish Pradhan, Risan Chhunju, Ayusha Pradhan, Sristi Shrestha">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../CSS/contactus.css">
+    <link rel="stylesheet" href="../CSS/nav-footer.css">
+    <link rel="icon" type="image/x-icon" href="../Images/circlelogo.png">
+    <style>
+        h1 {
+            font-weight: 400;
+            font-size: 40px;
+        }
+        
+        /* main div  */
+        .contact {
+            display: flex;
+            margin: 40px 0;
+        }
+        
+        #contact_form {
+            width: 50%;
+        }
+        #contact_form input{
+            padding: 10px 5px;
+        }
+        #contact_form p {
+            font-size: 20px;
+            line-height: 1;
+            margin: 15px 0;
+        }
+        
+        .contact-info {
+            margin-top: 40px;
+        }
+        
+        label {
+            font-size: 20px;
+        }
+        
+        /* input tag main div */
+        .info {
+            margin-bottom: 10px;
+            margin-top: 10px;
+            width: 75%;
+            box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 7px;
+            border: none;
+            padding: 5px 10px;
+            font-size: 15px;
+        }
+        
+        
+        
+        .submit_feedback {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border-style: none;
+            padding: 0px;
+            font-weight: bold;
+        }
+        
+        .submit_feedback:hover {
+            color: rgb(3, 80, 3);
+            cursor: pointer;
+        }
+        
+        /* submit button */
+        button {
+            border-radius: 7px;
+            margin: 0;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 15px;
+            background-color: rgb(13, 102, 13);
+            width: 100%;
+            box-shadow: 0 0 5px rgba(8, 7, 7, 0.2);
+        }
+        
+        button:hover {
+            background-color: rgb(13, 102, 13);
+            color: white;
+        }
+        
+        .submit {
+            width: 78%;
+            margin-top: 15px;
+            background-color: transparent;
+            color: black;
+        }
+        
+        /* contact us logo */
+        .logo-holder {
+            width: 30%;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .logo-holder img {
+            width: 30px;
+            object-fit: contain;
+        }
+
+        /* our contact info main div */
+        .contact_info {
+            margin-top: 30px;
+            color: green;
+        }
+        
+        .contact_items {
+            font-size: 12px;
+            color: gray;
+        }
+
+
+        h1,
+        h2 {
+            margin: 0;
+            color: rgb(5, 105, 5);
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        /* navigation link of current page  */
+        .current{
+            color: rgb(5, 68, 5);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar and logo -->
+   <header>
+    <figure>
+        <img src=" ../Images/bonsai logo.png " alt=" " style="width: 150px; ">
+    </figure>
+
+    <!-- navigation section -->
+    <ul>
+        <li><a target="_blank " href="../home.html">HOME</a></li>
+        <li><a target="_blank " href="Allproducts.html " class="product">PRODUCT</a></li>
+        <li><a target="_blank " href="AllBlog.html ">BLOG</a></li>
+        <li><a target="_blank " href="teamoverview.html ">ABOUT US</a></li>
+        <li><a target="_blank " href="Researchsection.html ">RESEARCH</a></li>
+        <li><a target="_blank " href="contact.html " class="current">CONTACT US</a></li>
+    </ul>
+</header>
+<hr>
+
+    <div class="contact">
+
+        <div id="contact_form">
+            <h1 style="margin-bottom: 30px;">Connect with us</h1>
+            <form name="FeedbackForm">
+                <label>NAME</label><br>
+                <input type="text" name="FullName" placeholder="Your Name" class="info" id="name"><br><br>
+                <label>EMAIL</label><br>
+                <input type="email" name="EmailAddress" class="info" id="mail" placeholder="example@gmail.com"><br><br>
+                <label>MESSAGE</label><br>
+                <textarea name="MsgFromCustomers" class="info"></textarea><br>
+                <!-- <input type="submit" class="submit_feedback" > -->
+                <button class="submit" onclick="validation()">Submit</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Our Contact Info</h2>
+                <div class="logo-holder">
+                    <img src="../Images/logo (1).png" alt="">
+                    <p>bonsai@gmail.com</p>
+                </div>
+                <div class="logo-holder" style="margin-top: -10px;">
+                    <img src="../Images/logo (4).png" alt="">
+                    <p>9851047650</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="contact_form">
+            <img src="../Images/location.png" alt="c++" class="Location to Islington college" width="100%">
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <h2>QUCK LINKS</h2>
+                <p>
+                    <li>Privacy Policy</li>
+                    <li>FAQ & Return Policy</li>
+                    <li>Terms Of Service</li>
+                    <li>Refund Policy</li>
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h2 text-align: left;> OUR SOCIAL MEDIA</h2>
+                <!-- social media icons -->
+                <th><img src="../Images/instagram.png" alt="" style="width: 40px; "></th>
+                <th><img src="../Images/facebook.png" alt="" style="width: 40px; "></th>
+                <th><img src="../Images/icons8-tiktok-100.png" alt="" style="width: 40px; "></th>
+            </div>
+
+            <div class="footer-links">
+                <h2> CONTACT US</h2>
+                <p style="font-size: 18px;">Please reach out to our team at <b>bonsai@gmail.com</b> if you have any questions.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h2>GET DAILY UPDATES</h2>
+                <p style="font-size: 18px;">Join us to receive gardening tips, offer, news and more</p>
+                <div class="email-input">
+                    <form name="FeedbackForm" style="width: 100%;">
+                        <input style="margin-bottom: 10px;" type="text" onfocus="this.value=''" name="EmailAddress" value="Your Email Address" id="clearText" onclick="clearInput()">
+                        </input>
+
+                        <button class="sub-btn">Subscribe </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script>
+    function validation() {
+    var FullName = document.forms["FeedbackForm"]["FullName"].value;
+    var EmailAddress = document.forms["FeedbackForm"]["EmailAddress"].value;
+    var MsgFromCustomers = document.forms["FeedbackForm"]["MsgFromCustomers"].value;
+    if (FullName == "" || EmailAddress == "" || MsgFromCustomers == "") {
+        alert("Please fill up every elements of the form");
+    }
+    else {
+        alert("Thank you for messaging us");
+    }
+}
+
+
+</script>
+
+</html>
